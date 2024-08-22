@@ -1,5 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 #app-container {
   background-color: #007bff;
+}
+
+#header{
+  color: #dc3545;
 }
 
 
@@ -7,36 +15,115 @@ body, html {
   height: 100%;
   margin: 0;
 }
-.page-container {
+
+#content
+{
   display: flex;
-  height: 100%;
+
 }
-.navbar-container {
+#content1
+{
+  width: 100%;
+
+}
+
+#navbar-container {
   width: 80px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  background-color: #f8f9fa;
+  /* display: flex;
+  justify-content: center; */
+  /* background-color: #f8f9fa; */
   padding: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-/* .navbar-nav {
-  width: 100%;
-} */
-.nav-link {
-  text-align: center;
-  padding: 10px 0;
-}
 
-.navbar {
-  margin-bottom: 20px;
-}
 
-.navbar-nav .nav-link i {
-  color: #007bff;
+
+/* .navbar-nav .nav-link i {
+  color: #0d0e12;
   transition: color 0.3s; 
 }
 
 .navbar-nav .nav-link:hover i {
-  color: #0056b3;
+  color: #e2480b;
+} */
+
+
+.navbar-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar1 ul li{
+  font-size: 40px;
+  height: 100%;
+} 
+
+.navbar1 ul li a i{
+  color:rgb(166, 166, 166);
+} 
+.navbar1 ul li a i:hover{
+  color:rgb(255, 221, 221);
+} 
+
+
+
+
+.chat-box {
+  height: 90vh;
+  overflow-y: scroll;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  padding: 10px;
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  color: white;
+}
+
+.list-unstyled li:hover {
+background-color: #eae9e9;
+color: #625b5b;
+}
+
+.media img {
+  width: 50px;
+  height: 50px;
+}
+.part2-media-body {
+  /* background-color: #ff5e62; */
+  margin-top: 15px;
+}
+.online-badge {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 10px;
+}
+.offline-badge {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+.message-left {
+background-color: #e6f3ff;
+color: black;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 0px 15px 15px 15px;
+max-width: 60%;
+float: left;
+clear: both;
+}
+
+.message-right {
+background-color: #dcf8c6;
+color: black;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 15px 0px 15px 15px;
+max-width: 60%;
+float: right;
+clear: both;
 }

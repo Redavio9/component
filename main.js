@@ -1,13 +1,12 @@
-import { renderNavbar } from './navbar.js';
-import { renderHome } from './home.js';
-import { rendercontent } from './content.js';
-import { renderSignUp } from './signup.js';
-import { renderSignIn } from './signin.js';
-import { renderChat } from './chat.js';
-import { renderWhite } from './white.js';
+import { renderNavbar } from './components/navbar.js';
+import { renderHome } from './components/home.js';
+import { rendercontent } from './components/content.js';
+import { renderSignUp } from './components/signup.js';
+import { renderSignIn } from './components/signin.js';
+import { renderChat } from './components/chat.js';
+import { renderWhite } from './components/white.js';
 
 function navigate() {
-    console.log('reda');
     const route = window.location.pathname
     console.log(route);
     // renderNavbar(); // Render Navbar first
@@ -92,3 +91,4 @@ function change_box()
   const chatBox = document.getElementById('chat-box');
   chatBox.innerHTML = ""; // Remove the element from the DOM
 }
+

@@ -3,7 +3,7 @@
   padding: 0;
 }
 #app-container {
-  background-color: #007bff;
+  background-color: #6b90b7;
 }
 
 #header{
@@ -24,6 +24,7 @@ body, html {
 #content1
 {
   width: 100%;
+  background-color: #c5d0d0;
 
 }
 
@@ -63,7 +64,7 @@ body, html {
   color:rgb(166, 166, 166);
 } 
 .navbar1 ul li a i:hover{
-  color:rgb(255, 221, 221);
+  color:rgb(225 175 175);
 } 
 
 

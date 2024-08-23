@@ -14,7 +14,7 @@ export function renderChat()
           </div>
           <ul class="list-unstyled">
               <li id="solix" class="d-flex media p-2" onclick="myFunction()">
-                  <img src="avatar2.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
+                  <img src="avatars/avatar2.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
                   <div class="media-body p-2">
                       <h6 class="mt-0 mb-1 " style="color:rgb(97, 97, 97)">Solix</h>
                       <p class="" style="margin-bottom:2px; font-size:15px; font-style:italic; color:rgb(169, 171, 167)">How Are You?</p>
@@ -22,7 +22,7 @@ export function renderChat()
                   </div>
               </li>
               <li class="d-flex media p-2" onclick="change_box()">
-                  <img src="avatar3.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
+                  <img src="avatars/avatar3.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
                   <div class="media-body p-2">
                       <h6 class="mt-0 mb-1" style="color:rgb(97, 97, 97)"">Morad</h>
                       <p class="" style="margin-bottom:2px; font-size:15px; font-style:italic; color:rgb(25, 25, 25)">How Are You?</p>
@@ -30,7 +30,7 @@ export function renderChat()
                   </div>
               </li>
               <li class="d-flex media p-2" onclick="change_box()">
-                  <img src="avatar4.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
+                  <img src="avatars/avatar4.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
                   <div class="media-body p-2">
                       <h6 class="mt-0 mb-1" style="color:rgb(97, 97, 97)"">Joba</h>
                       <p class="" style="margin-bottom:2px; font-size:15px; font-style:italic; color:rgb(169, 171, 167)">How Are You?</p>
@@ -38,7 +38,7 @@ export function renderChat()
                   </div>
               </li>
               <li class="d-flex media p-2" onclick="change_box()">
-                  <img src="avatar5.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
+                  <img src="avatars/avatar5.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
                   <div class="media-body p-2">
                       <h6 class="mt-0 mb-1" style="color:rgb(97, 97, 97)"">Ali</h>
                       <p class="" style="margin-bottom:2px; font-size:15px; font-style:italic; color:rgb(169, 171, 167)">How Are You?</p>
@@ -46,7 +46,7 @@ export function renderChat()
                   </div>
               </li>
               <li class="d-flex media p-2" onclick="change_box()">
-                  <img src="avatar2.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
+                  <img src="avatars/avatar2.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
                   <div class="media-body p-2">
                       <h6 class="mt-0 mb-1" style="color:rgb(97, 97, 97)"">Amine</h>
                       <p class="" style="margin-bottom:2px; font-size:15px; font-style:italic; color:rgb(169, 171, 167)">How Are You?</p>
@@ -54,7 +54,7 @@ export function renderChat()
                   </div>
               </li>
               <li class="d-flex media p-2 onclick="change_box()">
-                  <img src="avatar3.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
+                  <img src="avatars/avatar3.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
                   <div class="media-body p-2">
                       <h6 class="mt-0 mb-1" style="color:rgb(97, 97, 97)"">Simo</h>
                       <p class="" style="margin-bottom:2px; font-size:15px; font-style:italic; color:rgb(25, 25, 25)">How Are You?</p>
@@ -62,7 +62,7 @@ export function renderChat()
                   </div>
               </li>
               <li class="d-flex media p-2" onclick="change_box()">
-                  <img src="avatar4.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
+                  <img src="avatars/avatar4.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
                   <div class="media-body p-2">
                       <h6 class="mt-0 mb-1" style="color:rgb(97, 97, 97)">Reda</h6>
                       <p class="" style="margin-bottom:2px; font-size:15px; font-style:italic; color:rgb(25, 25, 25)">How Are You?</p>
@@ -77,7 +77,7 @@ export function renderChat()
       <div class="col-md-8">
           <!-- <h3 class="mb-3">Détails de l'Utilisateur</h3> -->
           <div class="d-flex media mb-3">
-              <img src="avatar2.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
+              <img src="avatars/avatar2.png" alt="Avatar" width="80" height="80" class="m-2 rounded-circle">
               <div class="part2-media-body">
                   <h5 class="" style="margin-bottom: 0px;">Solix</h5>
                   <span class="badge offline-badge p-1"><div class=""></div></span>

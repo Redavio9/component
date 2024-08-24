@@ -13,7 +13,7 @@ export function rendercontent()
   <div class="row" style="margin-left: 250px;">
       <div class="col-lg-3 m-3">
           <div class="card text-center p-4">
-              <img src="https://placehold.co/100x100" class="card-img-top mx-auto" alt="Classic Mode">
+              <img src="../image.png" class="card-img-top mx-auto" alt="Classic Mode">
               <div class="card-body">
                   <h5 class="card-title">CLASSIC</h5>
                   <p class="card-text">Play a game of ping pong</p>
@@ -23,7 +23,7 @@ export function rendercontent()
       </div>
       <div class="col-lg-4 m-3">
           <div class="card text-center p-4">
-              <img src="https://placehold.co/100x100" class="card-img-top mx-auto" alt="AI Mode">
+              <img src="../ai.png" class="card-img-top mx-auto" alt="AI Mode">
               <div class="card-body">
                   <h5 class="card-title">AI MODE</h5>
                   <p class="card-text">Challenge the computer</p>
@@ -33,7 +33,7 @@ export function rendercontent()
       </div>
       <div class="col-lg-3 m-3">
           <div class="card text-center p-4">
-              <img src="https://placehold.co/100x100" class="card-img-top mx-auto" alt="Friends Mode">
+              <img src="../one.png" class="card-img-top mx-auto" alt="Friends Mode">
               <div class="card-body">
                   <h5 class="card-title">FRIENDS MODE</h5>
                   <p class="card-text">Beat your friends in 1 vs 1</p>

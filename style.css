@@ -1,21 +1,76 @@
 *{
   margin: 0;
   padding: 0;
+  font-size: 15px;
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(58,0,255,1) 93%); */
+}
+body{
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(58,0,255,1) 93%); */
+    background-image: url(./Animated\ Shape.svg);
+    /* background-color: #2555ff; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffff;
+    z-index: 1;
+    /* height: 100; */
 }
 #app-container {
-  background-color: #007bff;
+  background: none;
+  /* background-color: #6b90b7; */
 }
 
+.navbar-brand{
+  flex:2
+}
+#navbar-container{
+  /* background-color: #ffff; */
+}
 #header{
   color: #dc3545;
 }
 
-
+/* .col-md-6{
+  background: none;
+}
+.form-label{
+  color: #ffff;
+  background: none;
+} */
 body, html {
   height: 100%;
   margin: 0;
 }
 
+.form-inline{
+  margin-right: 30px;
+  flex:2;
+  
+}
+.btn{
+  border-radius: 20px;
+  font-size: 10px;
+  
+}
+
+.form-control
+{
+  margin-right: 10px;
+  background-color:#365c85;
+  font-size: 7px;
+  border-radius: 20px;
+}
+
+.navbar-nav{
+  border-radius: 25px;
+  /* border: 2px solid #ccafaf; */
+  background-color: #2f588b;
+  
+}
+.nav-item{
+  margin: 5px;
+}
 #content
 {
   display: flex;
@@ -24,6 +79,7 @@ body, html {
 #content1
 {
   width: 100%;
+  /* background-color: #c5d0d0; */
 
 }
 
@@ -33,7 +89,7 @@ body, html {
   justify-content: center; */
   /* background-color: #f8f9fa; */
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  /* box-shadow: 2px 1px 6px 0px rgba(0,0,0,0.1); */
 }
 
 
@@ -47,11 +103,27 @@ body, html {
   color: #e2480b;
 } */
 
-
+.card{
+  background-color: #4071b0;
+}
+.bestplayer{
+  background-color: #4071b0;
+}
+.activity{
+  height: 60%;
+}
+#content1{
+  /* background-color: #255287; */
+  /* border-radius: 30px; */
+  /* z-index: 2; */
+}
 .navbar-nav{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #346096;
+  box-shadow: 2px 1px 6px 0px #2555ff;
+  
 }
 
 .navbar1 ul li{
@@ -60,10 +132,12 @@ body, html {
 } 
 
 .navbar1 ul li a i{
-  color:rgb(166, 166, 166);
+  color: #ffff;
+  font-size: 40px;
 } 
 .navbar1 ul li a i:hover{
-  color:rgb(255, 221, 221);
+  color: #324587;
+  font-size:45px;
 } 
 
 
